@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgba(50, 116, 158, 0.511);
+}
+header{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: lightgreen (96, 93, 96);
+}
+nav a:hover{
+    color: slategrey;
+    background-color: rgba(127, 255, 212, 0.306);
+    padding: 6px;
+    border-radius: 10px;
+}
+header button{
+    background-color: rgba(255, 31, 31, 0.788);
+    border: none;
+    padding: 7px 15px;
+    color: rgb(9, 9, 10);
+    border-radius: 10px;
+    font-weight: 400px;
+}
+header button:hover{
+    background-color: azure
+}
+header h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    background-color: rgba(179, 222, 207, 0.169);
+    color: rgba(4, 112, 148, 0.831);
+    font-size: xx-large;
+}
+body .hero p{
+    font-family: cursive;
+    padding: 20px 20px;
+    background-color: rgba(255, 200, 0, 0);
+    border-radius: 12px 0px 12px 0px;
+    font-style: italic;
+    background-size: 20px;
+    display: flex;
+    color: white;
+    justify-content: center;
+} 
+body .hero .design{
+    color: rgb(95, 95, 210);
+}  
+
+body a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(53, 37, 235);
+}
+body a:hover{
+    background-color: greenyellow;
+    border-radius: 10px 0px 10px 0px;
+}
+.image{
+    width: 200px;
+    border-radius: 20px;
+    margin: 40px;
+}
+.hero{
+    position: relative;
+    height: 100dvh;
+    background-color: azure;
+    background-image: url("download(2).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.hero .overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.584);
+    inset: 0;
+}
+.tex{
+    padding: 10px 20px;
+    border:solid 1px ;
+    width: fit-content;
+    border-radius: 7px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.tex.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.parent{
+    display: flex;
+    gap: 10px;
+}
+.tools{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid rgb(151, 149, 149);
+}
+.tools .top{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-left: -15px;
+    margin-bottom: 10px;
+}
+.tools .top div{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: blueviolet;
+}
+.tools li p{
+    font-weight: 100;
+    color: rgb(83, 81, 81);
+}
